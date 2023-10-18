@@ -20,10 +20,6 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-button{
-    margin: 0 auto;
-    display: block;
-}
 .square{
     border: 2px solid white;
     /* width: calc(100% / 8);
@@ -32,6 +28,10 @@ button{
     justify-content: center;
     align-items: center;
     color: white;
+}
+button{
+    margin: 0 auto;
+    display: block;
 }
 .active{
     background-color: aquamarine;
