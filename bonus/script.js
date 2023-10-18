@@ -2,11 +2,21 @@ const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', () =>{
     //numero squares da generare
-    const numSquare = 100;
+    let numSquare = 100;
     //prendo la griglia di gioco
     const playground = document.getElementById('playground');
     //prima di riempire svuoto tutto
     playground.innerHTML = '';
+
+    const opVal = document.getElementById('choose').value;
+    value = opVal;
+
+    if (opVal === 'medium'){
+        numSquare = 81;
+    } else if (opVal === 'hard'){
+        numSquare = 49;
+    }
+
     //ciclo per stampare gli squares
     for(let i = 0; i < numSquare; i++){
         //genero square
@@ -14,11 +24,6 @@ btn.addEventListener('click', () =>{
         //appendo square al playground
         playground.append(square);
 
-    }
-    if (option.value === medium){
-        numSquare = 81;
-    } else if (option.value === hard){
-        numSquare = 49;
     }
 });
 
