@@ -7,12 +7,19 @@ btn.addEventListener('click', function(){
     const playground = document.getElementById('playground');
     //ciclo per stampare gli squares
     for(let i = 0; i >= numSquare; i++){
+        
     }
 });
 
-function drawSquare(){
+function drawSquare(squareIndex,numSquare){
     //creo nuovo elemento div
     const square = document.createElement('div');
     //aggiungo square 
     square.classList.add('square');
+
+    square.innerHTML(squareIndex + 1);
+    square.addEventListener('click', function(){
+        square.classList.add('active');
+        square.style.color = 'black';
+    })
 }
