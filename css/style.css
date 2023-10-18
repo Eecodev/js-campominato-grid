@@ -28,8 +28,9 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    cursor: target;
 }
-button{
+.btn{
     margin: 0 auto;
     display: block;
 }
