@@ -1,0 +1,38 @@
+:root{
+    --ms-orange: 
+    --ms-yellow: 
+    --ms-green: 
+    --ms-dark: #000000;
+    --ms-primary: 
+    --ms-light: #ffffff;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#playground{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    margin: 0 auto;
+    display: block;
+}
+.square{
+    border: 2px solid white;
+    /* width: calc(100% / 8);
+    height: calc(100% / 8); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.active{
+    background-color: aquamarine;
+}
