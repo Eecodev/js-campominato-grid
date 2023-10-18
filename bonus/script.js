@@ -15,6 +15,11 @@ btn.addEventListener('click', () =>{
         playground.append(square);
 
     }
+    if (option.value === medium){
+        numSquare = 81;
+    } else if (option.value === hard){
+        numSquare = 49;
+    }
 });
 
 function drawSquare(squareIndex,numSquare){
