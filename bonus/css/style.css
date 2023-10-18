@@ -11,6 +11,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+h3{
+    text-align: center;
+}
 
 #playground{
     width: 600px;
@@ -29,9 +32,15 @@ body{
     align-items: center;
     color: white;
 }
-button{
+#choose{
+    width: 300px;
     margin: 0 auto;
     display: block;
+}
+.start-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .active{
     background-color: aquamarine;
