@@ -1,9 +1,9 @@
 :root{
-    --ms-orange: 
-    --ms-yellow: 
-    --ms-green: 
+    --ms-orange: #E67907;
+    --ms-yellow: #E5D401;
+    --ms-green: #24E502;
     --ms-dark: #000000;
-    --ms-primary: 
+    --ms-primary: #E12A12;
     --ms-light: #ffffff;
 }
 
